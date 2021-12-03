@@ -1,2 +1,2 @@
-# Case-Aggregator
-Development of a mobile api "Case Aggregator" for android
+# Android-Studio-labs
+Development Android Studio labs
