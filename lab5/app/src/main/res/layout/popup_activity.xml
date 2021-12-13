@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@android:color/transparent"
+    android:padding="10px">
+
+    <TextView
+        android:layout_width="299dp"
+        android:layout_height="224dp"
+        android:text="Для просмотра журнала укажите номер id в поле ввода и нажмите на кнопку 'Смотреть'."
+        android:textColor="@color/white" android:textSize="24sp" android:id="@+id/textView"/>
+    <CheckBox
+        android:onClick="onCheckboxClicked"
+        android:text="Больше не показывать"
+        android:layout_width="284dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBox"
+        android:textColor="@color/white" android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintVertical_bias="0.553"/>
+    <Button
+        android:onClick="closeDialog"
+        android:layout_width="163dp"
+        android:layout_height="wrap_content"
+        android:text="Ок"
+        android:id="@+id/closePopupBtn"/>
+
+</LinearLayout>
